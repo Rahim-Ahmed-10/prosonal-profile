@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-content{
+   background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+.name{
+    font-size: 29px;
+    color: brown;
+}
+
+.navbar ul{
+    display: flex;
+    gap :20px;
+    list-style: none;
+    
+}
+
+.navbar ul a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+    width: 100px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #dd450e;
+    color: white;
+    border-radius: 12px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.bannar{
+    height: 600px;
+    background-image: url(/image/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;   
+}
+
+.bannar-content{
+    justify-items: center;
+    text-align: center;
+    padding-top: 300px;
+    
+}
+
+.bannar-content h1{
+    color: white;
+    font-size: 39px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.bannar-content p{
+    font-size: 20px;
+    font-weight: bold;
+    color: honeydew;
+    margin-bottom: 30px;
+}
+
+.section-contianer{
+     background-color:rgb(191, 202, 202);  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 120px;
+    gap: 20px;
+
+}
+
+.section-content{
+    padding: 20px;
+    border-radius: 8px;
+    background-color :antiquewhite;
+}
+
+
+
+.section-content ol{
+    padding: 20px;
+    
+    
+}
+
+
+    
