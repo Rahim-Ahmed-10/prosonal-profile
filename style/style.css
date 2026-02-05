@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-color:rgb(157, 189, 189) ;
+}
+
 .navbar-content{
    background-color: bisque;
     display: flex;
@@ -94,4 +98,102 @@
 }
 
 
+.project-title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 39px;
+    font-weight: bolder;
+}
+
+.project>*{
+    background-color: rgb(107, 97, 121);;
+    color: white;
+    border-radius: 30px;
+    padding: 40px;
+    
+}
+
+header{
+    grid-area: header;
+}
+
+header h2{
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+
+header p{
+    margin-bottom: 20px;
+}
+
+nav{
+    grid-area: navbar;
+}
+nav h2{
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+nav p{
+    margin-bottom: 20px;
+}
+
+main{
+    grid-area: main;
+    align-items: center;
+}
+main h2{
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+main p{
+    margin-bottom: 20px;
+}
+.project-center{
+    margin-top: 80px;
+}
+footer{
+    grid-area: footer;
+    
+}
+
+
+.project{  
+    margin: 120px;
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+
+            "header header header"
+            "navbar navbar main"
+            "footer footer main";
+    
+}
+
+
+/* Footer */
+.footer{
+    background-color:rgb(144, 98, 209); 
+}
+
+.footer-title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer-content{
+    margin-top: 120px;
+}
+
+
+.footer-contianer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.copy{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
     
