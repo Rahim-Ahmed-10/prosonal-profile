@@ -1,11 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
+
+/* BODY */
 
 body{
     background-color:rgb(157, 189, 189) ;
 }
+
+/* HEADER-NAVBAR-STYLE */
 
 .navbar-content{
    background-color: bisque;
@@ -45,6 +50,8 @@ body{
     cursor: pointer;
 }
 
+/* HEADER-BANNAR-STYLE */
+
 .bannar{
     height: 600px;
     background-image: url(../image/hero-bg.png);
@@ -57,7 +64,6 @@ body{
     justify-items: center;
     text-align: center;
     padding-top: 300px;
-    
 }
 
 .bannar-content h1{
@@ -74,13 +80,15 @@ body{
     margin-bottom: 30px;
 }
 
+/*MAIN-SECTION-STYLE */
+
 .section-contianer{
-     background-color:rgb(191, 202, 202);  
+    background-color:rgb(191, 202, 202);  
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    border-radius: 12px;
     padding: 120px;
     gap: 20px;
-
 }
 
 .section-content{
@@ -93,10 +101,10 @@ body{
 
 .section-content ol{
     padding: 20px;
-    
-    
+      
 }
 
+/* /* MAIN-SECTION-PROJECT-STYLE */
 
 .project-title{
     text-align: center;
@@ -170,7 +178,7 @@ footer{
 }
 
 
-/* Footer */
+/* FOOTER */
 .footer{
     background-color:rgb(144, 98, 209); 
 }
@@ -183,8 +191,6 @@ footer{
 .footer-content{
     margin-top: 120px;
 }
-
-
 .footer-contianer{
     display: flex;
     justify-content: space-between;
@@ -195,5 +201,36 @@ footer{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 40px;
+}
+
+@media screen and (max-width:576px) {
+   
+  .navbar-content{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+.navbar ul{
+    display: none;
+}
+
+.section-contianer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 0px;
+}
+
+.project{
+    display: grid;
+    grid-template-areas: 
+                "header"
+                "navbar"
+                "main"
+                "footer";
+
+    margin: 0px;
+    padding: 0px;
+}
+
 }
     
