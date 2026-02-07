@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-   
+   border: 1px solid red;
 }
 
 /* BODY */
@@ -233,5 +233,30 @@ footer{
     padding: 20px;
 }
 
+}
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .section-contianer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    margin: 20px;
+}
+.project{
+    display: grid;
+    grid-template-areas: 
+                "header header"
+                "main   main"
+                "navbar footer"
+                ;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.project-center{
+    margin-top: 20px;
+}
 }
     
